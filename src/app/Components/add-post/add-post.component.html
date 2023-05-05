@@ -1,0 +1,11 @@
+<div class="addPost">
+    <textarea 
+    name="" 
+    id="post" 
+    placeholder="What are your thoughts?"
+    [(ngModel)]="addedPost.Post"></textarea>
+    <a routerLink="../main/show">
+        <button (click)="onAdd()">Post</button>
+    </a>
+</div>
+

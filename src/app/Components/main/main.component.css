@@ -1,0 +1,17 @@
+.body{
+    background-color: slategrey;
+    height: 100vh;
+    z-index: -2;
+    overflow-y: scroll;
+    
+}
+.inner{
+    position: relative;
+    bottom: 4rem;
+    top: 7rem;
+    font-size: 10rem;
+}
+.header{
+    position: fixed;
+    z-index: 99;
+}

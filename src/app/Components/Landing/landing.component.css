@@ -1,0 +1,28 @@
+*{
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    height: 100vh;
+    padding: 1rem;
+    align-items: center;
+    /* justify-content: center; */
+}
+button{
+    background-color: gold;
+    color: black;
+    border: none;
+}
+.active{
+    background-color: blue;
+    border: 2px solid seagreen;
+}
+.selection .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+}

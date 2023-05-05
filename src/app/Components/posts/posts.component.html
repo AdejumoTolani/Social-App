@@ -1,0 +1,18 @@
+<div class="design-post">
+<div *ngFor="let post of Posts;let i = index" class="post" >
+        {{post.Post}} 
+        <div class="postStats">
+            <button (click) ="onLike(post, i)" ><span class="likes">🤍</span></button>
+            <button (click)="onRepost()"><span></span></button>
+            <button (click)="onFav()"><span></span></button>
+        </div>
+    </div>
+</div>
+
+
+<a routerLink="/addPost">
+    <button>AddNew</button>
+</a>
+
+
+

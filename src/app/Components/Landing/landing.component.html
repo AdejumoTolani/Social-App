@@ -1,0 +1,19 @@
+<div class="container">
+    <h3>Welcome to PostIt!</h3>
+    <div class="selection">
+        <div class="links">
+            <a 
+            routerLink="Register" 
+            routerLinkActive ='["active"]'
+            [routerLinkActiveOptions]="{exact:true}"><button>Register</button></a>
+            <a 
+            routerLink="Login"    
+            routerLinkActive ='["active"]'
+            [routerLinkActiveOptions]="{exact:true}"><button>Login</button></a>
+        </div>
+        
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
